@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+    </head>
+    <body>
+        <div class="main">
+<!--             <nav id="{{ page.id }}-nav">
+                <ul>
+                    <li><a href="/" class="hi">hi</a></li>
+                    <li><a href="/blog" class="blog">blog</a></li>
+                    <li><a href="/resume" class="resume">resume</a></li>
+                </ul>
+            </nav> -->
+            <div class="container">
+            
+            {{ content }}
+            
+            </div><!-- /.container -->
+            <footer>
+                <ul>
+                    
+                    <li><a href="https://github.com/lwiecek" rel="me"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/lukaszwiecek" rel="me"><i class="fa fa-linkedin"></i></li>
+                    <li><a href="https://facebook.com/lukasz.ryszard.wiecek" rel="me"><i class="fa fa-facebook"></i></li>                    
+                    <li><a href="https://twitter.com/lukasz_wiecek" rel="me"><i class="fa fa-twitter"></i></li>
+                    <!-- <li><a href="mailto:hi@lukaszwiecek.com" rel="me"><i class="fa fa-envelope-o"></i></a></li> -->
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
