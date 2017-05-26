@@ -7,4 +7,5 @@ brew install ruby
 # make sure the ruby is from Homebrew (e.g. using ruby --version)
 gem install bundler
 bundle install
+bundle exec jekyll serve
 ```
