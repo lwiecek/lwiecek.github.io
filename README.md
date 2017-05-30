@@ -1,5 +1,5 @@
 # https://lukaszwiecek.com
-My personal website. Built using Github Pages and jekyll.
+My personal website. Built using [Github Pages](https://pages.github.com/) and [jekyll](https://jekyllrb.com/).
 
 ## Setup (OS X)
 ```
