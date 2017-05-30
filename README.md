@@ -1,5 +1,5 @@
 # https://lukaszwiecek.com
-My personal website. Built using [Github Pages](https://pages.github.com/) and [jekyll](https://jekyllrb.com/).
+My personal website. Built using [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
 ## Setup (OS X)
 ```
@@ -10,13 +10,13 @@ bundle install
 bundle exec jekyll serve
 ```
 
-The site is now available locally at: http://localhost:4000
+The site is now available locally at http://localhost:4000
 
 ## Progressive Web Apps
 
 I decided that home page is the perfect place to try out making [Progressive Web App (PWA)](https://developers.google.com/web/progressive-web-apps/).
 
-To see how this website is getting closer to achive that goal I am using [Lighthouse](https://developers.google.com/web/tools/lighthouse/).
+To see how this website is getting closer to achieve that goal I am using [Lighthouse](https://developers.google.com/web/tools/lighthouse/).
 ```
 npm install -g lighthouse
 lighthouse --view https://lukaszwiecek.com
