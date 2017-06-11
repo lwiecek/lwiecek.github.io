@@ -8,14 +8,14 @@
         <meta property="og:title" content="Łukasz Więcek" />
         <meta property="og:description" content="Full Stack Developer" />
         <meta property="og:url" content="https://lukaszwiecek.com" />
-        <meta property="og:image" content="https://lukaszwiecek.com/android-chrome-512x512.png" />
+        <meta property="og:image" content="https://lukaszwiecek.com/img/android-chrome-512x512.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#f6f6f6">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="/css/main.css">
-        <link rel="manifest" href="/manifest.json">
+        <link rel="manifest" href="/pwa/manifest.json">
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -46,7 +46,7 @@
         <script>
         if('serviceWorker' in navigator) {
           window.addEventListener('load', function() {
-            navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            navigator.serviceWorker.register('/pwa/sw.js').then(function(registration) {
               console.log('ServiceWorker registration successful with scope: ', registration.scope);
             }, function(err) {
               console.log('ServiceWorker registration failed: ', err);

@@ -1,4 +1,4 @@
-var CACHE_NAME = 'lwiecek-github-io-cache-v003';
+var CACHE_NAME = 'lwiecek-github-io-cache-v005';
 var urlsToCache = [
   '/',
   '/index.html',
@@ -6,7 +6,7 @@ var urlsToCache = [
   '/?utm_source=homescreen',
   'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css',
   '/css/main.css',
-  '/favicon-32x32.png'
+  '/img/favicon-32x32.png'
 ];
 
 self.addEventListener('install', function(event) {

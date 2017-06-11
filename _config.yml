@@ -1,2 +1,12 @@
 name: Łukasz Więcek - homepage
 markdown: kramdown
+
+gems:
+  - jemoji
+
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
