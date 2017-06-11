@@ -1,4 +1,4 @@
-var CACHE_NAME = 'lwiecek-github-io-cache-v002';
+var CACHE_NAME = 'lwiecek-github-io-cache-v003';
 var urlsToCache = [
   '/',
   '/index.html',
